@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.reconhecimentofacial"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:4:5-65
+11-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:4:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:5:5-81
+12-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="ANDROID.PERMISSION.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:6:5-80
+13-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:7:5-68
+14-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:7:22-65
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:9:5-60
+16-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:9:19-57
+17    <uses-feature android:name="android.hardware.camera.autofocus" />
+17-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:10:5-70
+17-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:10:19-67
+18    <uses-feature android:name="android.hardware.camera.front" />
+18-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:11:5-66
+18-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:11:19-63
+19    <uses-feature android:name="android.hardware.camera.front.autofocus" />
+19-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:12:5-76
+19-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:12:19-73
+20
+21    <meta-data
+21-->[com.android.support:appcompat-v7:25.3.1] C:\Users\Joyce\.gradle\caches\transforms-2\files-2.1\be37f51fafd9910745bee0ef9b4536a0\appcompat-v7-25.3.1\AndroidManifest.xml:25:5-27:34
+22        android:name="android.support.VERSION"
+22-->[com.android.support:appcompat-v7:25.3.1] C:\Users\Joyce\.gradle\caches\transforms-2\files-2.1\be37f51fafd9910745bee0ef9b4536a0\appcompat-v7-25.3.1\AndroidManifest.xml:26:9-47
+23        android:value="25.3.1" />
+23-->[com.android.support:appcompat-v7:25.3.1] C:\Users\Joyce\.gradle\caches\transforms-2\files-2.1\be37f51fafd9910745bee0ef9b4536a0\appcompat-v7-25.3.1\AndroidManifest.xml:27:9-31
+24
+25    <application
+25-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:14:5-33:19
+26        android:allowBackup="true"
+26-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:15:9-35
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:16:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:17:9-41
+30        android:largeHeap="true"
+30-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:18:9-33
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:19:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:20:9-35
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:21:9-40
+34        <activity android:name="com.android.reconhecimentofacial.view.MainActivity" >
+34-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:23:9-29:20
+34-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:23:19-84
+35            <intent-filter>
+35-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:24:13-28:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:25:17-69
+36-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:25:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:27:17-77
+38-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:27:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:30:9-32:52
+42            android:name="com.android.reconhecimentofacial.view.OpenCvRecognizeActivity"
+42-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:31:13-89
+43            android:screenOrientation="portrait" />
+43-->C:\Users\Joyce\Desktop\esse\AndroidReconhecimentoFacial-master\app\src\main\AndroidManifest.xml:32:13-49
+44    </application>
+45
+46</manifest>
